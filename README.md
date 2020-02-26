@@ -28,6 +28,7 @@ Based on docker:dind container with added most basic tools - bash, curl, jq
 You can reference these variables from any of your subscripts:
 $CONFIG_FILE - default set to **wrapper-config.json**
 $CONTAINER_WORKDIR - is set by entrypoint after container is started. Whatever the workdir in the container is configured for, will have the absolute path in this variable. Default is **/data**
+
 |variable name|info|default value|
 |--|--|--|
 | $CONFIG_FILE | default config file for the wrapper container | wrapper-config.json |
